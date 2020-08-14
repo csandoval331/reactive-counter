@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+
+    footer
+      p We will use this app to familiarize ourselves to web-hooks.
+      p We will use a button to increment a counter. And since we want to update the view of the user with the most up-to-date count, we will need to use a webhook which will allow the server to communicate with the client. Without a webhook, we would need to refresh the page to reload the view.
